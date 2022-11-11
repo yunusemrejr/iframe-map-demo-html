@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <title> Sample IFrame Screen ~ yunus</title>
+    <link rel="shortcut icon " href="resimler/icons.png " />
+    <meta charset="UTF-8 ">
+    <meta name="viewport " content="width=device-width,intial-scale=1.0 ">
+    <meta name="author " content="Yunus Emre Vurgun">
+    <meta name="description " content="Sample IFrame Screen">
+    <link rel="stylesheet " href="this.css ">
+
+
+</head>
+
+<body onload="setMainTextResponsive() ">
+
+
+    <div id="headerdiv"><img id="logoiski" src="resimler/icons.png">
+        <h1 id="main_title">Sample IFrame Screen ~ yunus</h1>
+    </div>
+    <br>
+    <div id="divIframe">
+        <p id="pre-loadFrame1">Connecting, please wait
+        </p>
+        <iframe onload="hideLoadingLabel()" id="iframe1" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" height="700px" width="100%" frameborder="0"></iframe></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script src="this.js "></script>
+
+    <section>
+        <div id="divfloat">
+            <img id="imgASP" src="resimler/icons.png " style="width:244px ; ">
+        </div>
+    </section>
+</body>
+
+</html>
